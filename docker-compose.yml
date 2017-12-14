@@ -1,9 +1,9 @@
-version: "1"
+version: "2"
 services:
   showdoc:
-      build: ./
-      restart: always
-      ports:
+    build: ./
+    restart: always
+    ports:
       - "4999:80"
-      volumes:
+    volumes:
       - /data/showdoc:/var/www/html:rw
