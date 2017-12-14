@@ -4,6 +4,6 @@ services:
     build: ./
     restart: always
     ports:
-      - "4999:80"
+      - "8080:80"
     volumes:
       - /data/showdoc:/var/www/html:rw
